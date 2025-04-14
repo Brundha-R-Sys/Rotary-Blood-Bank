@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Request Blood</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Request Blood</h1>
+    <nav><a href="index.html">Home</a></nav>
+  </header>
+  <main>
+    <form id="requestForm">
+      <input type="text" placeholder="Patient Name" required id="patient" />
+      <input type="text" placeholder="Required Blood Group" required id="reqBlood" />
+      <input type="text" placeholder="Location" required id="reqLocation" />
+      <input type="text" placeholder="Contact Number" required id="reqContact" />
+      <button type="submit">Submit Request</button>
+    </form>
+    <p id="reqMessage"></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
